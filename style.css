@@ -1,5 +1,4 @@
 /* style.css - HW_Wireframe */
-/* section: 495px */
 
 body
 {
@@ -8,17 +7,65 @@ body
 	background-color: #777;
 	width: 960px;
 	font-size: 18px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 
-header, nav, section, aside, footer
+header, nav, footer
 {
+	margin-top: 10px;
+	height: 5em;
 	background-color: #ebebeb;
+	line-height: 5em;
+}
+
+div
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+section, aside
+{
+	margin-top: 20px;
+	height: 17em;
+	line-height: 4em;
+	background-color: #ebebeb;
+	width: 495px;
+	float: left;
+}
+
+aside
+{
+	width: 445px;
+	margin-left: 20px;
 }
 
 article
 {
+	background-color: #777;
 	color: #ebebeb;
+	width: 95%;
+	margin: 0 auto;
+	height: 72%;
+}
+
+span
+{
+	display: block;
+	margin: 0 auto;
+	margin-top: -5px;
+	width: 90%;
+	background-color: #ebebeb;
+	color: #777;
+	line-height: 3.5em;
+	height: 3.5em;
+}
+
+span:nth-last-child(1)
+{
+	margin-top: 10px;
 }
 
 h1, p
